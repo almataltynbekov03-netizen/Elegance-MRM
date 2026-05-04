@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta name="description" content="Elegance Hotels International – affordable luxury hotel in Marmaris. Book sea view rooms with best price guarantee, free cancellation, and 24/7 support.">
+  <title>Elegance Hotels International | Marmaris Luxury Hotel</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <header class="brand">
+        <img src="https://i.imgur.com/uiLAYy4.png" alt="Elegance Hotels International Logo" class="brand-logo" />
+        <span class="brand-name">Elegance Hotels International</span>
+        <span class="brand-location">Marmaris, Türkiye</span>
+      </header>
+      <h1 class="hero-title">Book Your Perfect Stay in Marmaris</h1>
+      <p class="hero-subtitle">Luxury comfort, sea view rooms, and unforgettable experience</p>
+      <div class="hero-cta">
+        <a href="#booking" class="btn btn-gold">Book Now</a>
+        <a href="#booking" class="btn btn-outline">Check Availability</a>
+      </div>
+      <div class="hero-trust">
+        <img src="https://img.icons8.com/ios-filled/50/ffffff/shield.png" alt="Trust" />
+        <span>Trusted by thousands of travelers</span>
+      </div>
+    </div>
+    <img class="hero-bg" src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1500&q=80" alt="Marmaris Hotel Sea Sunset">
+  </section>
+  <!-- QUICK BOOKING ENGINE -->
+  <section class="booking-engine" id="booking">
+    <form class="booking-form" onsubmit="return false;">
+      <div>
+        <label>Check-in</label>
+        <input type="date" id="checkin" required>
+      </div>
+      <div>
+        <label>Check-out</label>
+        <input type="date" id="checkout" required>
+      </div>
+      <div>
+        <label>Guests</label>
+        <select id="guests">
+          <option>1 guest</option>
+          <option>2 guests</option>
+          <option>3 guests</option>
+          <option>4 guests</option>
+        </select>
+      </div>
+      <button class="btn btn-gold" id="booking-search">Search</button>
+    </form>
+  </section>
+  <!-- WHY BOOK WITH US -->
+  <section class="advantages">
+    <h2>Why Book with Us?</h2>
+    <ul>
+      <li><img src="https://img.icons8.com/color/48/000000/best-price.png" alt="">Best price guarantee</li>
+      <li><img src="https://img.icons8.com/color/48/000000/panorama.png" alt="">Sea view rooms</li>
+      <li><img src="https://img.icons8.com/color/48/000000/cancel.png" alt="">Free cancellation</li>
+      <li><img src="https://img.icons8.com/color/48/000000/phone-disconnected.png" alt="">24/7 support</li>
+      <li><img src="https://img.icons8.com/color/48/000000/airport.png" alt="">Airport transfer</li>
+    </ul>
+  </section>
+  <!-- ROOMS -->
+  <section class="rooms" id="rooms">
+    <h2>Our Rooms</h2>
+    <div class="rooms-grid">
+      <div class="room-card premium-hover">
+        <img src="https://images.unsplash.com/photo-1501117716987-c8e01a6a00b5?auto=format&fit=crop&w=800&q=80" alt="Standard Room">
+        <div class="room-info">
+          <h3>Standard Room</h3>
+          <span class="room-price">From $110/night</span>
+          <p>Elegant comfort for couples. King bed, garden/mountain view, complimentary breakfast.</p>
+          <button class="btn btn-gold">Book Now</button>
+        </div>
+      </div>
+      <div class="room-card premium-hover">
+        <img src="https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?auto=format&fit=crop&w=800&q=80" alt="Deluxe Sea View">
+        <div class="room-info">
+          <h3>Deluxe Sea View</h3>
+          <span class="room-price">From $180/night</span>
+          <p>Panoramic sea view, balcony, king bed, luxury amenities. Perfect for romantic getaways.</p>
+          <button class="btn btn-gold">Book Now</button>
+        </div>
+      </div>
+      <div class="room-card premium-hover">
+        <img src="https://images.unsplash.com/photo-1525104698733-4ab6ce6db874?auto=format&fit=crop&w=800&q=80" alt="Family Suite">
+        <div class="room-info">
+          <h3>Family Suite</h3>
+          <span class="room-price">From $250/night</span>
+          <p>Spacious suite for families. Two bedrooms, sea view, living area, kitchenette.</p>
+          <button class="btn btn-gold">Book Now</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- SERVICES -->
+  <section class="services">
+    <h2>Services</h2>
+    <div class="services-list">
+      <div class="service-item"><img src="https://img.icons8.com/ios-filled/64/waiter.png" alt=""><span>Restaurant</span></div>
+      <div class="service-item"><img src="https://img.icons8.com/ios-filled/64/spa.png" alt=""><span>Spa & Wellness</span></div>
+      <div class="service-item"><img src="https://img.icons8.com/ios-filled/64/swimming.png" alt=""><span>Pool & Beach</span></div>
+      <div class="service-item"><img src="https://img.icons8.com/ios-filled/64/dumbbell.png" alt=""><span>Gym</span></div>
+      <div class="service-item"><img src="https://img.icons8.com/ios-filled/64/shuttlebus.png" alt=""><span>Transfer Service</span></div>
+    </div>
+  </section>
+  <!-- SOCIAL PROOF (REVIEWS) -->
+  <section class="reviews">
+    <h2>Guest Reviews</h2>
+    <div class="reviews-list">
+      <div class="review-card">
+        <div class="review-stars" aria-label="5 stars">★★★★★</div>
+        <p>Amazing hotel with stunning views. Highly recommend for a relaxing stay!</p>
+        <div class="review-meta">Anna B., Germany <span class="flag">🇩🇪</span></div>
+      </div>
+      <div class="review-card">
+        <div class="review-stars" aria-label="5 stars">★★★★★</div>
+        <p>Perfect location. Service and rooms on the level of 5 stars. Will return again!</p>
+        <div class="review-meta">Ivan P., Russia <span class="flag">🇷🇺</span></div>
+      </div>
+      <div class="review-card">
+        <div class="review-stars" aria-label="4 stars">★★★★☆</div>
+        <p>The sea view is breathtaking. Breakfast was amazing. Thank you!</p>
+        <div class="review-meta">Sophie M., UK <span class="flag">🇬🇧</span></div>
+      </div>
+      <div class="review-card">
+        <div class="review-stars" aria-label="5 stars">★★★★★</div>
+        <p>Отличный семейный отель, детям очень понравилось!</p>
+        <div class="review-meta">Dmitry K., Kazakhstan <span class="flag">🇰🇿</span></div>
+      </div>
+    </div>
+  </section>
+  <!-- LOCATION -->
+  <section class="location">
+    <h2>Location</h2>
+    <p>Situated in the heart of Marmaris, steps from the azure sea and vibrant city life. Enjoy easy access to Old Town, marina, and beautiful beaches.</p>
+    <div class="location-map">
+      <iframe title="Elegance Hotels International Map" src="https://www.openstreetmap.org/export/embed.html?bbox=28.2566%2C36.8372%2C28.2666%2C36.8472&amp;layer=mapnik&amp;marker=36.8422,28.2616" style="border:1px solid #ccc;" allowfullscreen="" loading="lazy"></iframe>
+      <div class="location-poi">
+        <strong>Nearby:</strong>
+        <ul>
+          <li>Marmaris Marina – 1.2km</li>
+          <li>Marmaris Beach – 200m</li>
+          <li>Old Bazaar – 1.5km</li>
+          <li>Atlantis Waterpark – 800m</li>
+          <li>Grand Bazaar – 1.3km</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <!-- GALLERY -->
+  <section class="gallery-section">
+    <h2>Gallery</h2>
+    <div class="gallery-grid" id="gallery">
+      <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=500&q=80" alt="Hotel Lounge" class="gallery-item" />
+      <img src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=500&q=80" alt="Pool Night" class="gallery-item" />
+      <img src="https://images.unsplash.com/photo-1509228468518-180dd4864904?auto=format&fit=crop&w=500&q=80" alt="Hotel Lobby" class="gallery-item" />
+      <img src="https://images.unsplash.com/photo-1502920917128-1aa500764ce8?auto=format&fit=crop&w=500&q=80" alt="Room with View" class="gallery-item" />
+      <img src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=500&q=80" alt="Dining" class="gallery-item" />
+      <img src="https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&w=500&q=80" alt="Spa" class="gallery-item" />
+    </div>
+    <div id="lightbox" class="lightbox">
+      <span class="lightbox-close">&times;</span>
+      <img class="lightbox-img" src="" alt="">
+    </div>
+  </section>
+  <!-- FINAL CTA -->
+  <section class="final-cta">
+    <h2>Your Luxury Stay Awaits</h2>
+    <p>Limited rooms available — book now</p>
+    <a href="#booking" class="btn btn-gold">Reserve Your Room</a>
+  </section>
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-contact">
+        <h3>Contact Us</h3>
+        <p>Elegance Hotels International</p>
+        <p>Ataturk Cad. No: 45, Marmaris, Türkiye</p>
+        <p><a href="mailto:info@elegancehotels.com">info@elegancehotels.com</a></p>
+        <p>+90 252 123 4567</p>
+      </div>
+      <div class="footer-social">
+        <h3>Follow Us</h3>
+        <div class="social-links">
+          <a href="#"><img src="https://img.icons8.com/ios-filled/30/ffffff/instagram-new.png" alt="Instagram"></a>
+          <a href="#"><img src="https://img.icons8.com/ios-filled/30/ffffff/facebook-new.png" alt="Facebook"></a>
+          <a href="#"><img src="https://img.icons8.com/ios-filled/30/ffffff/twitter.png" alt="Twitter"></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      © 2026 Elegance Hotels International. All rights reserved.
+    </div>
+  </footer>
+<script src="script.js"></script>
+</body>
+</html>
